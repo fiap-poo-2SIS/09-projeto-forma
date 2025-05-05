@@ -20,8 +20,8 @@ public class Main {
             System.out.println(f);
             System.out.println("área = " + f.calcularArea());
 
-            if(f instanceof Cilindro) {
-                System.out.println("volume = " + ((Cilindro) f).calcularVolume());
+            if(f instanceof Volume) {
+                System.out.println("volume = " + ((Volume) f).calcularVolume());
             }
             System.out.println("-------------------------------------");
         }
